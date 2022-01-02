@@ -7,7 +7,7 @@ weight = input("enter your weight in kg: ")
 
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 # print(type(height)) - <class 'str'>
 
@@ -15,7 +15,7 @@ weight = input("enter your weight in kg: ")
 
 person_weight = float(weight)
 
-height_power_of_2 = float(height) * float(height)
+height_power_of_2 = float(height) ** 2
 
 bmi_result = person_weight / height_power_of_2
 
