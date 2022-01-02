@@ -20,3 +20,15 @@ height_power_of_2 = float(height) ** 2
 bmi_result = person_weight / height_power_of_2
 
 print(int(bmi_result))
+
+# Alternatively, you can write the codes as following:
+
+height = input("enter your height in m: ")
+
+weight = input("enter your weight in kg: ")
+
+bmi = float (weight) / float (height) ** 2
+
+bmi_as_int = int(bmi)
+
+print(bmi_as_int)
